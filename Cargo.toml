@@ -58,7 +58,7 @@ serde_with = { default-features = false, version = "^3" }
 solana-account = { default-features = false, version = "^2" }
 solana-address-lookup-table-interface = { default-features = false, version = "^2" }
 solana-banks-client = { default-features = false, version = "^2" }
-solana-banks-interface = { default-features = false, version = "^2" }
+solana-banks-interface = { default-features = false, version = "^3" }
 solana-clock = { default-features = false, version = "^2" }
 solana-commitment-config = { default-features = false, version = "^2" }
 solana-config-program-client = { default-features = false, version = "^1" }
