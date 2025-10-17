@@ -72,7 +72,7 @@ solana-loader-v3-interface = { default-features = false, version = "^5" }
 solana-message = { default-features = false, version = "^2.4" }
 solana-nonce = { default-features = false, version = "^2" }
 solana-program = { default-features = false, version = "^2" }
-solana-program-option = { default-features = false, version = "^2" }
+solana-program-option = { default-features = false, version = "^3" }
 solana-program-pack = { default-features = false, version = "^2" }
 solana-program-runtime = { default-features = false, version = "^2" }
 solana-program-test = { default-features = false, version = "^2" }

@@ -366,7 +366,7 @@ dependencies = [
  "solana-program-entrypoint",
  "solana-program-error",
  "solana-program-memory",
- "solana-program-option",
+ "solana-program-option 2.2.1",
  "solana-program-pack",
  "solana-pubkey",
  "solana-sdk-ids",
@@ -5938,7 +5938,7 @@ dependencies = [
  "solana-instruction",
  "solana-loader-v3-interface 5.0.0",
  "solana-nonce",
- "solana-program-option",
+ "solana-program-option 2.2.1",
  "solana-program-pack",
  "solana-pubkey",
  "solana-rent",
@@ -6013,7 +6013,7 @@ dependencies = [
  "solana-instruction",
  "solana-loader-v3-interface 5.0.0",
  "solana-nonce",
- "solana-program-option",
+ "solana-program-option 3.0.0",
  "solana-program-pack",
  "solana-pubkey",
  "solana-rent",
@@ -7928,7 +7928,7 @@ dependencies = [
  "solana-program-entrypoint",
  "solana-program-error",
  "solana-program-memory",
- "solana-program-option",
+ "solana-program-option 2.2.1",
  "solana-program-pack",
  "solana-pubkey",
  "solana-rent",
@@ -7994,6 +7994,12 @@ name = "solana-program-option"
 version = "2.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "dc677a2e9bc616eda6dbdab834d463372b92848b2bfe4a1ed4e4b4adba3397d0"
+
+[[package]]
+name = "solana-program-option"
+version = "3.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8e7b4ddb464f274deb4a497712664c3b612e3f5f82471d4e47710fc4ab1c3095"
 
 [[package]]
 name = "solana-program-pack"
@@ -9611,7 +9617,7 @@ dependencies = [
  "solana-loader-v2-interface",
  "solana-loader-v3-interface 5.0.0",
  "solana-message",
- "solana-program-option",
+ "solana-program-option 2.2.1",
  "solana-pubkey",
  "solana-reward-info",
  "solana-sdk-ids",
@@ -9702,7 +9708,7 @@ dependencies = [
  "solana-loader-v2-interface",
  "solana-loader-v3-interface 5.0.0",
  "solana-message",
- "solana-program-option",
+ "solana-program-option 3.0.0",
  "solana-pubkey",
  "solana-reward-info",
  "solana-sdk-ids",
@@ -10252,7 +10258,7 @@ dependencies = [
  "solana-decode-error",
  "solana-msg",
  "solana-program-error",
- "solana-program-option",
+ "solana-program-option 2.2.1",
  "solana-pubkey",
  "solana-zk-sdk",
  "thiserror 2.0.17",
@@ -10326,7 +10332,7 @@ dependencies = [
  "solana-program-entrypoint",
  "solana-program-error",
  "solana-program-memory",
- "solana-program-option",
+ "solana-program-option 2.2.1",
  "solana-program-pack",
  "solana-pubkey",
  "solana-rent",
@@ -10356,7 +10362,7 @@ dependencies = [
  "solana-program-entrypoint",
  "solana-program-error",
  "solana-program-memory",
- "solana-program-option",
+ "solana-program-option 2.2.1",
  "solana-program-pack",
  "solana-pubkey",
  "solana-rent",
@@ -10403,7 +10409,7 @@ dependencies = [
  "solana-program-entrypoint",
  "solana-program-error",
  "solana-program-memory",
- "solana-program-option",
+ "solana-program-option 2.2.1",
  "solana-program-pack",
  "solana-pubkey",
  "solana-rent",
