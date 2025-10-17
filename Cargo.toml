@@ -98,7 +98,7 @@ solana-zk-token-sdk = { default-features = false, version = "^2" }
 spl-associated-token-account = { default-features = false, version = "^7" }
 spl-generic-token = { default-features = false, version = "^1" }
 spl-memo = { default-features = false, version = "^6" }
-spl-pod = { default-features = false, version = "^0.5" }
+spl-pod = { default-features = false, version = "^0.7" }
 spl-token = { default-features = false, version = "^8" }
 spl-token-2022 = { default-features = false, version = "^9" }
 spl-token-confidential-transfer-proof-extraction = { default-features = false, version = "^0.4" }
