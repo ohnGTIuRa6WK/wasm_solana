@@ -5934,7 +5934,7 @@ dependencies = [
  "solana-clock",
  "solana-config-program-client 0.0.2",
  "solana-epoch-schedule",
- "solana-fee-calculator",
+ "solana-fee-calculator 2.2.1",
  "solana-instruction",
  "solana-loader-v3-interface 5.0.0",
  "solana-nonce",
@@ -6008,7 +6008,7 @@ dependencies = [
  "solana-clock",
  "solana-config-program-client 1.1.0",
  "solana-epoch-schedule",
- "solana-fee-calculator",
+ "solana-fee-calculator 3.0.0",
  "solana-hash",
  "solana-instruction",
  "solana-loader-v3-interface 5.0.0",
@@ -6083,7 +6083,7 @@ dependencies = [
  "solana-bucket-map",
  "solana-clock",
  "solana-epoch-schedule",
- "solana-fee-calculator",
+ "solana-fee-calculator 2.2.1",
  "solana-genesis-config",
  "solana-hash",
  "solana-lattice-hash",
@@ -6763,7 +6763,7 @@ dependencies = [
  "solana-entry",
  "solana-epoch-schedule",
  "solana-fee",
- "solana-fee-calculator",
+ "solana-fee-calculator 2.2.1",
  "solana-fee-structure",
  "solana-genesis-config",
  "solana-geyser-plugin-manager",
@@ -7119,6 +7119,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "solana-fee-calculator"
+version = "3.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2a73cc03ca4bed871ca174558108835f8323e85917bb38b9c81c7af2ab853efe"
+dependencies = [
+ "log",
+]
+
+[[package]]
 name = "solana-fee-structure"
 version = "2.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -7145,7 +7154,7 @@ dependencies = [
  "solana-clock",
  "solana-cluster-type",
  "solana-epoch-schedule",
- "solana-fee-calculator",
+ "solana-fee-calculator 2.2.1",
  "solana-hash",
  "solana-inflation",
  "solana-keypair",
@@ -7708,7 +7717,7 @@ checksum = "703e22eb185537e06204a5bd9d509b948f0066f2d1d814a6f475dafb3ddf1325"
 dependencies = [
  "serde",
  "serde_derive",
- "solana-fee-calculator",
+ "solana-fee-calculator 2.2.1",
  "solana-hash",
  "solana-pubkey",
  "solana-sha256-hasher",
@@ -7912,7 +7921,7 @@ dependencies = [
  "solana-epoch-schedule",
  "solana-example-mocks",
  "solana-feature-gate-interface",
- "solana-fee-calculator",
+ "solana-fee-calculator 2.2.1",
  "solana-hash",
  "solana-instruction",
  "solana-instructions-sysvar",
@@ -8073,7 +8082,7 @@ dependencies = [
  "solana-compute-budget",
  "solana-epoch-rewards",
  "solana-epoch-schedule",
- "solana-fee-calculator",
+ "solana-fee-calculator 2.2.1",
  "solana-genesis-config",
  "solana-hash",
  "solana-instruction",
@@ -8479,7 +8488,7 @@ dependencies = [
  "solana-account-decoder-client-types",
  "solana-clock",
  "solana-commitment-config",
- "solana-fee-calculator",
+ "solana-fee-calculator 2.2.1",
  "solana-inflation",
  "solana-pubkey",
  "solana-transaction-error",
@@ -8555,7 +8564,7 @@ dependencies = [
  "solana-epoch-schedule",
  "solana-feature-gate-interface",
  "solana-fee",
- "solana-fee-calculator",
+ "solana-fee-calculator 2.2.1",
  "solana-fee-structure",
  "solana-genesis-config",
  "solana-hard-forks",
@@ -9269,7 +9278,7 @@ dependencies = [
  "serde_derive",
  "solana-account",
  "solana-bincode",
- "solana-fee-calculator",
+ "solana-fee-calculator 2.2.1",
  "solana-instruction",
  "solana-log-collector",
  "solana-nonce",
@@ -9317,7 +9326,7 @@ dependencies = [
  "solana-define-syscall",
  "solana-epoch-rewards",
  "solana-epoch-schedule",
- "solana-fee-calculator",
+ "solana-fee-calculator 2.2.1",
  "solana-hash",
  "solana-instruction",
  "solana-instructions-sysvar",
@@ -9369,7 +9378,7 @@ dependencies = [
  "solana-core",
  "solana-epoch-schedule",
  "solana-feature-gate-interface",
- "solana-fee-calculator",
+ "solana-fee-calculator 2.2.1",
  "solana-geyser-plugin-manager",
  "solana-gossip",
  "solana-instruction",
