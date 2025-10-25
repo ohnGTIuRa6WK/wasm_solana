@@ -207,3 +207,5 @@ setup:helix
 ## License
 
 Unlicense, see the [LICENSE](./license) file.
+
+<!-- Auto-update: 2025-10-25T11:44:03.168397 -->
